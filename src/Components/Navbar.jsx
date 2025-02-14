@@ -5,8 +5,7 @@ function Navbar() {
         <div className="flex flex-wrap justify-between items-center py-3 px-6 border-b border-gray-200 bg-white">
 
             <div className="flex items-center">
-                <img src="/images/brand_logo.png" alt="Brand Logo" className="h-8 ml-11
-                " />
+                <img src="/images/brand_logo.png" alt="Brand Logo" className="h-8 ml-11 mr-auto" />
             </div>
 
 
@@ -27,7 +26,7 @@ function Navbar() {
 
 
             <div className="flex items-center">
-                <button className="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 mr-11">
+                <button className="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700">
                     Login
                 </button>
             </div>
@@ -36,3 +35,4 @@ function Navbar() {
 }
 
 export default Navbar;
+

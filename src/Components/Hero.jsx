@@ -16,15 +16,15 @@ function Hero() {
                 <div className="w-3/4">
                     <p className="text-gray-600 text-sm md:text-base">
                         YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR SHOES.
-                        YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR SHOES.
+                        Discover our wide range of styles and colors, crafted to provide unmatched comfort and durability. Explore our new collection today and find the perfect fit for any occasion.
                     </p>
                 </div>
 
                 {/* Buttons Section */}
                 <div className="flex space-x-4 mt-4">
-                    <button className="bg-red-600 text-white px-6 py-3 text-sm md:text-base rounded-md hover:bg-red-700">
-                        Shop Now
-                    </button>
+                    <a href="/cards" className="bg-red-600 text-white px-6 py-3 text-sm md:text-base rounded-md hover:bg-red-700">
+                        Shop
+                    </a>
                     <button className="border border-gray-700 px-6 py-3 text-sm md:text-base rounded-md hover:bg-gray-100">
                         Category
                     </button>
@@ -56,3 +56,4 @@ function Hero() {
 }
 
 export default Hero;
+
