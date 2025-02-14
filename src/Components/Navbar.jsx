@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
@@ -10,18 +11,21 @@ function Navbar() {
 
 
             <div className="hidden md:flex space-x-5">
-                <a href="#" className="text-sm font-semibold text-gray-700 hover:text-gray-900">
+                <Link to="/home" className="text-sm font-semibold text-gray-700 hover:text-gray-900">
+                    Home
+                </Link>
+                <Link to="#" className="text-sm font-semibold text-gray-700 hover:text-gray-900">
                     Menu
-                </a>
-                <a href="#" className="text-sm font-semibold text-gray-700 hover:text-gray-900">
+                </Link>
+                <a to="#" className="text-sm font-semibold text-gray-700 hover:text-gray-900">
                     Location
                 </a>
-                <a href="#" className="text-sm font-semibold text-gray-700 hover:text-gray-900">
+                <Link to="#" className="text-sm font-semibold text-gray-700 hover:text-gray-900">
                     About
-                </a>
-                <a href="#" className="text-sm font-semibold text-gray-700 hover:text-gray-900">
+                </Link>
+                <Link to="#" className="text-sm font-semibold text-gray-700 hover:text-gray-900">
                     Contact
-                </a>
+                </Link>
             </div>
 
 

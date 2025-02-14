@@ -2,11 +2,11 @@ import React from 'react'
 
 const Card = () => {
     return (
-        <div className='cards m-10  '>
+        <div className=' cards m-10  '>
 
-            <div className='cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 '>
+            <div className='cards grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-2 place-items-center'>
                 <div class="relative m-14 flex w-full max-w-sm flex-col overflow-hidden rounded-lg border border-gray-100 bg-slate-200 shadow-md hover:shadow-lg">
-                    <a class="relative mx-4 mt-4 flex h-64 overflow-hidden rounded-xl" href="#">
+                    <a class="relative mx-4 mt-4 flex h-60 overflow-hidden rounded-xl" href="#">
                         <img class="object-cover" src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c25lYWtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="product image" className='scale-125' />
                         <span class="absolute top-0 left-0 m-2 rounded-full bg-black px-2 text-center text-sm font-medium text-white">39% OFF</span>
                     </a>
@@ -224,7 +224,7 @@ const Card = () => {
 
                 <div class="relative m-14 flex w-full max-w-sm flex-col overflow-hidden rounded-lg border border-gray-100 bg-red-100 shadow-md hover:shadow-lg">
                     <a class="relative mx-3 mt-3 flex items-center h-60 overflow-hidden rounded-xl" href="#">
-                        <img class="object-cover" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mnx2RGZvenBRT1ZrZ3x8ZW58MHx8fHx8" alt="product image" className='rounded-xl' />
+                        <img class="object-cover" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mnx2RGZvenBRT1ZrZ3x8ZW58MHx8fHx8" alt="product image" className='rounded-xl'/>
                         <span class="absolute top-0 left-0 m-2 rounded-full bg-black px-2 text-center text-sm font-medium text-white">39% OFF</span>
                     </a>
                     <div class="mt-4 px-5 pb-5">
@@ -266,6 +266,7 @@ const Card = () => {
                 </div>
 
             </div>
+
 
 
         </div>
